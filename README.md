@@ -3,7 +3,7 @@
 A proceedural image generator using a probability wavefunction collapse algorithm. Every 3x3 pixel grid exists as a superposition of all possible allowed 3x3 pixel grids according to an internal set of rules, and as each pixel updates it affects the superposition of the rest of the image by disallowing/allowing various of the possible configurations.
 
 
-![Junctions](simple_snake_crossover.gif) ![No junctions](simple_snake.gif)
+![Junctions](simple_snake_crossover.gif =100x) ![No junctions](simple_snake.gif)
 
 If you look closely at the boundaries between the collapsed and uncollapsed regions of the image, you can see the various superpositions per-pixel as varying shades of gray (brighter = more likely to be white).
 
