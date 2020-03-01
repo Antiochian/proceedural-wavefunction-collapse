@@ -11,13 +11,15 @@ If you look closely at the boundaries between the collapsed and uncollapsed regi
 
 ![Superposition closeup](superposition.png) |
 
-The first version of this code, the simplesnake program, uses hardcoded manually set rules (for example, below the rule is that the white line can never end or cross itself anywyere), which is an effective proof of concept but obviously of limited use.
+The first version of this code, the simplesnake program, uses hardcoded manually set rules (see above), which is an effective proof of concept but obviously of limited use.
 
-
+Markov Chaining To Infer Rulesets
+--------------
 
 Eventually I decided I wanted to experiment with letting the algorithm try and decide its own rules based on a training image instead of a hardcoded set. I think in theory the concept should be very similar to a Markov chain, but a 2-dimensional one, if that makes sense.
 
 This much more ambitious goal (of learning based on a training image and switching from a binary allowed/disallwed ruleset to a Markov-style probabilistic one) is partially implemented in the intermediate_snake.py program, which is VERY much in-progress. At the moment it performs well at replicating local structures, but fails to capture the bulk properties of the sample image in any meaningful way. I guess I am know learning why machine learning was invented, ha ha - this stuff is HARD.
 
 ![Mediocre results](inrtermediate_results.png)
-My mediocre progress so far is above
+
+My mediocre progress so far is above.
