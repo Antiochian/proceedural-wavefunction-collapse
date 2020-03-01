@@ -15,5 +15,5 @@ The first version of this code, the simplesnake program, uses hardcoded manually
 Eventually I decided I wanted to experiment with letting the algorithm try and decide its own rules based on a training image instead of a hardcoded set. I think in theory the concept should be very similar to a Markov chain, but a 2-dimensional one, if that makes sense.
 
 This much more ambitious goal (of learning based on a training image and switching from a binary allowed/disallwed ruleset to a Markov-style probabilistic one) is partially implemented in the intermediate_snake.py program, which is VERY much in-progress. At the moment it performs well at replicating local structures, but fails to capture the bulk properties of the sample image in any meaningful way. I guess I am know learning why machine learning was invented, ha ha - this stuff is HARD.
-![Mediocre results](inrtemediate_results.png)
+![Mediocre results](inrtermediate_results.png)
 My mediocre progress so far is above
